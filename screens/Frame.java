@@ -82,18 +82,21 @@ public class Frame {
        panel.add(label);
        panel.add(button);
        frame.add(panel);
+
        String data [][] = {
-        {books.get(0).getSubjectName(),books.get(0).getSubjectCode(),books.get(0).getSubjectBookPicture(),books.get(0).getSubjectBookPrice()},
-        {books.get(1).getSubjectName(),books.get(1).getSubjectCode(),books.get(1).getSubjectBookPicture(),books.get(1).getSubjectBookPrice()},
-        {books.get(2).getSubjectName(),books.get(2).getSubjectCode(),books.get(2).getSubjectBookPicture(),books.get(2).getSubjectBookPrice()},
-        {books.get(3).getSubjectName(),books.get(3).getSubjectCode(),books.get(3).getSubjectBookPicture(),books.get(3).getSubjectBookPrice()},
-        {books.get(4).getSubjectName(),books.get(4).getSubjectCode(),books.get(4).getSubjectBookPicture(),books.get(0).getSubjectBookPrice()},
-        {books.get(5).getSubjectName(),books.get(5).getSubjectCode(),books.get(5).getSubjectBookPicture(),books.get(1).getSubjectBookPrice()},
-        {books.get(6).getSubjectName(),books.get(6).getSubjectCode(),books.get(6).getSubjectBookPicture(),books.get(2).getSubjectBookPrice()},
-        {books.get(7).getSubjectName(),books.get(7).getSubjectCode(),books.get(7).getSubjectBookPicture(),books.get(3).getSubjectBookPrice()},
-        {books.get(8).getSubjectName(),books.get(8).getSubjectCode(),books.get(8).getSubjectBookPicture(),books.get(0).getSubjectBookPrice()},
-        {books.get(9).getSubjectName(),books.get(9).getSubjectCode(),books.get(9).getSubjectBookPicture(),books.get(1).getSubjectBookPrice()},
-        {books.get(10).getSubjectName(),books.get(10).getSubjectCode(),books.get(10).getSubjectBookPicture(),books.get(2).getSubjectBookPrice()},
+            {books.get(0).getSubjectName(), books.get(0).getSubjectCode(), books.get(0).getSubjectBookPicture(), String.valueOf(books.get(0).getSubjectBookPrice())},
+            {books.get(1).getSubjectName(), books.get(1).getSubjectCode(), books.get(1).getSubjectBookPicture(), String.valueOf(books.get(1).getSubjectBookPrice())},
+            {books.get(2).getSubjectName(), books.get(2).getSubjectCode(), books.get(2).getSubjectBookPicture(), String.valueOf(books.get(2).getSubjectBookPrice())},
+            {books.get(3).getSubjectName(), books.get(3).getSubjectCode(), books.get(3).getSubjectBookPicture(), String.valueOf(books.get(3).getSubjectBookPrice())},
+            {books.get(4).getSubjectName(), books.get(4).getSubjectCode(), books.get(4).getSubjectBookPicture(), String.valueOf(books.get(4).getSubjectBookPrice())},
+            {books.get(5).getSubjectName(), books.get(5).getSubjectCode(), books.get(5).getSubjectBookPicture(), String.valueOf(books.get(5).getSubjectBookPrice())},
+            {books.get(6).getSubjectName(), books.get(6).getSubjectCode(), books.get(6).getSubjectBookPicture(), String.valueOf(books.get(6).getSubjectBookPrice())},
+            {books.get(7).getSubjectName(), books.get(7).getSubjectCode(), books.get(7).getSubjectBookPicture(), String.valueOf(books.get(7).getSubjectBookPrice())},
+            {books.get(8).getSubjectName(), books.get(8).getSubjectCode(), books.get(8).getSubjectBookPicture(), String.valueOf(books.get(8).getSubjectBookPrice())},
+            {books.get(9).getSubjectName(), books.get(9).getSubjectCode(), books.get(9).getSubjectBookPicture(), String.valueOf(books.get(9).getSubjectBookPrice())},
+            {books.get(10).getSubjectName(), books.get(10).getSubjectCode(), books.get(10).getSubjectBookPicture(), String.valueOf(books.get(10).getSubjectBookPrice())}
+        };
+        
         
        
     };
